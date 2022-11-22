@@ -13,7 +13,7 @@ class PracticeActivity : AppCompatActivity() {
         binding= ActivityPracticeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener { startActivity(Intent(this,MainActivity::class.java)) }
+        binding.button.setOnClickListener { startActivity(Intent(this,EditActivity::class.java)) }
 
 //        var back = findViewById<Button>(R.id.button)
 //        back.setOnClickListener { startActivity(Intent(this,MainActivity::class.java)) }
